@@ -129,8 +129,8 @@ function homeTyped() {
 function aboutTyped() {
     firstIntro = new Typed("#firstIntro", {
         strings: [
-            "Born and raised in Denmark, currently living in Brussels, Belgium.^500 I started coding in 2020, and I have since then specialized in Django.",
-            "I currently work with Django, mostly focused on frontend where I do Figma design, design implementations, and demos.",
+            "Salut! Moi c'est Manon, la traductrice des mangas les plus rigolos et les plus kawaii! ^500 J'adore lire des mangas et changer les mots en français, même si des fois je me trompe (mais ça fait rien, c'est rigolo, non?). ^500 J'aime aussi boire du thé vert et manger des ramen en même temps que je traduis - faut bien rester concentrée, non? ^500",
+            "Mon rêve c'est de devenir une super-héroïne de traduction, un peu comme dans les mangas, avec un pouvoir magique : changer tous les mots d'un coup!^500 Mais attention, parfois je traduis trop vite et des fois ça fait des phrases bizarres comme « J'ai mangé un chat ce matin » au lieu de « J'ai mangé un gâteau »… oops! C'est ça qui rend le travail encore plus amusant, n'est-ce pas?",
         ],
         typeSpeed: 10,
         backSpeed: 2,
@@ -140,8 +140,8 @@ function aboutTyped() {
         onComplete: function() {
             new Typed("#secondIntro", {
                 strings: [
-                    "My background is broad and involves process management, teaching, communication, and content management^500",
-                    "I'm a friendly spirit, always up for chat. Please don't hesitate to reach out."
+                    "Si tu veux des traductions avec des petites erreurs rigolotes, je suis là pour toi.^500",
+                    "Les mangas n'ont jamais été aussi drôles, promis!"
                 ],
                 typeSpeed: 5,
                 backSpeed: 2,
@@ -158,7 +158,7 @@ function aboutTyped() {
 function contactTyped() {
     typedEmail = new Typed("#email", {
         strings: [
-            "brogaard89@gmail.com",
+            "manondebienne@gmail.com",
         ],
         typeSpeed: 30,
         startDelay: 1000,
@@ -166,7 +166,7 @@ function contactTyped() {
         onComplete: function() {
             new Typed("#downloadCV", {
                 strings: [
-                    "Also, download my CV !",
+                    "N'oublie pas de télécharger mon CV !",
                 ],
                 typeSpeed: 20,
                 startDelay: 500,
