@@ -105,32 +105,32 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
 
             }, 500)
-            
+
         });
     });
 
 });
 
 function handleTypedobjects() {
-    
+
 }
 
 // function to start the typing on the home page
 function homeTyped() {
     workRoles = new Typed("#workRoles", {
-        strings: ["Traductrice"],
+        strings: ["Traductrice de Manga"], // More specific
         typeSpeed: 50,
         startDelay: 3000,
         showCursor: true,
     })
 }
- 
+
 // function to start the typing on the about page
 function aboutTyped() {
     firstIntro = new Typed("#firstIntro", {
         strings: [
-            "Salut! Moi c'est Manon, la traductrice des mangas les plus rigolos et les plus kawaii! ^500 J'adore lire des mangas et changer les mots en français, même si des fois je me trompe (mais ça fait rien, c'est rigolo, non?). ^500 J'aime aussi boire du thé vert et manger des ramen en même temps que je traduis - faut bien rester concentrée, non? ^500",
-            "Mon rêve c'est de devenir une super-héroïne de traduction, un peu comme dans les mangas, avec un pouvoir magique : changer tous les mots d'un coup!^500 Mais attention, parfois je traduis trop vite et des fois ça fait des phrases bizarres comme « J'ai mangé un chat ce matin » au lieu de « J'ai mangé un gâteau »… oops! C'est ça qui rend le travail encore plus amusant, n'est-ce pas?",
+            "Bonjour ! Je suis Manon, passionnée par l'univers du manga et spécialisée dans sa traduction vers le français. ^500 J'aime capturer l'essence des histoires et les rendre accessibles à un public francophone, en respectant le style et l'intention de l'auteur. ^500 Au-delà de la simple conversion des mots, mon travail consiste à adapter les nuances culturelles et linguistiques pour offrir une expérience de lecture immersive. ^500",
+            "Mon objectif est de fournir des traductions de haute qualité qui préservent l'authenticité de l'œuvre originale tout en assurant une lecture fluide et agréable. ^500 Je suis rigoureuse, attentive aux détails et m'engage à respecter les délais de livraison. ^500 Chaque projet est pour moi une nouvelle aventure, une opportunité de partager ma passion pour le manga et la langue française.",
         ],
         typeSpeed: 10,
         backSpeed: 2,
@@ -140,8 +140,8 @@ function aboutTyped() {
         onComplete: function() {
             new Typed("#secondIntro", {
                 strings: [
-                    "Si tu veux des traductions avec des petites erreurs rigolotes, je suis là pour toi.^500",
-                    "Les mangas n'ont jamais été aussi drôles, promis!"
+                    "Si vous recherchez une traductrice de manga professionnelle et passionnée, n'hésitez pas à me contacter. ^500",
+                    "Ensemble, donnons vie à vos histoires en français !",
                 ],
                 typeSpeed: 5,
                 backSpeed: 2,
@@ -158,7 +158,7 @@ function aboutTyped() {
 function contactTyped() {
     typedEmail = new Typed("#email", {
         strings: [
-            "manondebienne@gmail.com",
+            "manondebienne@email.com", // Use a real email!
         ],
         typeSpeed: 30,
         startDelay: 1000,
@@ -166,7 +166,7 @@ function contactTyped() {
         onComplete: function() {
             new Typed("#downloadCV", {
                 strings: [
-                    "N'oublie pas de télécharger mon CV !",
+                    "Téléchargez mon CV.",
                 ],
                 typeSpeed: 20,
                 startDelay: 500,
